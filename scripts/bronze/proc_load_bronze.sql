@@ -11,7 +11,13 @@ Script Purpose:
 Parameters:
     None. 
 	  This stored procedure does not accept any parameters or return any values.
+	  
+	 TRY...CATCH - SQL runs the try block and if it fails it runs the CATCH block 
+	  to ahndle the errors
 
+TRACK ETL DURATION-
+     Helps to identify bottlenecks ,optimize performance, monitor trends,
+	 detect issues
 Usage Example:
     EXEC bronze.load_bronze;
 ===============================================================================
