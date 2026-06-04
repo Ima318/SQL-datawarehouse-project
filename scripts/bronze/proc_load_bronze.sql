@@ -18,6 +18,10 @@ Parameters:
 TRACK ETL DURATION-
      Helps to identify bottlenecks ,optimize performance, monitor trends,
 	 detect issues
+
+ DATEDIFF()- calculates the difference between two dates, return days
+ ,months or years
+
 Usage Example:
     EXEC bronze.load_bronze;
 ===============================================================================
